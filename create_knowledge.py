@@ -6,7 +6,7 @@ from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 
-legal_text = 
+legal_text = """
 THE CODE ON WAGES, 2019
 Chapter 1: Preliminary
 
@@ -21,7 +21,7 @@ Power of Central Government to fix floor wage.—(1) The Central Government shal
 
 Chapter 3: Payment of Wages
 17. Mode of payment of wages.—For the purposes of this Code, all wages shall be paid in current coin or currency notes or by bank transfer to the bank account of the employee or by the electronic mode.
-18. Fixation of wage period.—The employer shall fix the wage period for employees either as daily or weekly or fortnightly or monthly.
+18. Fixation of wage period.—The employer shall fix the wage period for employees either as daily or weekly or fortnightly or monthly."""
 
 
 
