@@ -18,14 +18,14 @@ os.environ["GOOGLE_API_KEY"] = "YOUR_GOOGLE_API_KEY"
 
 st.set_page_config(page_title="NyayaSahayak", page_icon="⚖️", layout="wide")
 
-st.markdown("""
+st.markdown(
 <style>
 .chat-container { border-radius: 10px; padding: 20px; background-color: #f0f2f6; margin-bottom: 20px; }
 .bot-msg { color: #0e1117; font-weight: bold; }
 .user-msg { color: #0068c9; font-weight: bold; text-align: right; }
 .stButton>button { width: 100%; border-radius: 20px; }
 </style>
-""", unsafe_allow_html=True)
+, unsafe_allow_html=True)
 
 
 @st.cache_resource
